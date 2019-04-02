@@ -1,0 +1,301 @@
+<!--Lawal,Maryam Adetoun with the cardNo 10519008-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="TicketStyles.css">
+    <link rel="stylesheet" href="modalStyle.css">
+    <link rel="stylesheet" href="seatStyle.css">
+    
+</head>
+
+<body background="images/moviebg.jpg">
+    <div class="container">
+        <header>
+            <h2><b>Tickets</b></h2>
+        </header>
+        <P>Time and Movie Clicked+ date</P>
+        <hr class="line">
+        </hr>
+        <div class="row">
+            <div class="ticket">
+
+                <label id="jumboLabel" class="column1" for="large">Large Sweet Combo deal + Tickets &#64;
+                    &euro;21.45</label>
+                <input type="checkbox" class="column2" id="large">
+
+            </div>
+        </div>
+
+        <hr class="line">
+        </hr>
+
+        <div class="row">
+            <div class="ticket">
+
+                <label id="mediumLabel" class="column1" for="medium">Medium Sweet Combo deal + Tickets &#64;
+                    &euro;20.95</label>
+                <input type="checkbox" class="column2" id="medium">
+            </div>
+        </div>
+
+        <hr class="line">
+        </hr>
+        <div class="row">
+            <div class="ticket">
+
+                <label id="largeComboLabel" class="column1" for="largecombo">Large Combo deal + Tickets &#64;
+                    &euro;19.45</label>
+                <input type="checkbox" class=" column2" id="largecombo">
+
+            </div>
+        </div>
+        <hr class="line">
+        </hr>
+        <div class="row">
+            <div class="ticket">
+                <label id="mediumComboLabel" class="column1" for="mediumcombo">Medium Combo deal + Tickets &#64;
+                    &euro;18.95</label>
+                <input type="checkbox" class="column2" id="mediumcombo">
+            </div>
+        </div>
+
+        <hr class="line">
+        </hr>
+        <div class="row">
+            <div class="ticket">
+
+                <label id="DuocomboLabel" class="column1" for="Duocombo">Duo Combo deal + 2Tickets &#64;
+                    &euro;34.00</label>
+                <input type="checkbox" class="column2" id="Duocombo">
+            </div>
+        </div>
+
+        <hr class="line">
+        </hr>
+        <div class="row">
+            <div class="ticket">
+
+                <label id="kidscomboLabel" class="column1" for="kidcombo">Kids Combo deal + Tickets &#64;
+                    &euro;12.95</label>
+                <input type="checkbox" class="column2" id="kidcombo">
+
+            </div>
+        </div>
+
+        <hr class="line">
+        </hr>
+        <div class="row">
+            <div class="ticket">
+
+                <label id="StudentLargeLabel" class="column1" for="studentlarge">Student(Large) Combo deal + Tickets
+                    &#64; &euro;17.95</label>
+                <input type="checkbox" class="column2" id="studentlarge">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="ticket">
+
+                <label id="adultLabel" class="column1" for="adult">Adult Tickets &#64; &euro;11.70</label>
+                <input type="checkbox" class="column2" id="adult">
+
+            </div>
+        </div>
+
+        <hr class="line"> 
+        </hr>
+        <div class="row">
+            <div class="ticket">
+
+                <label id="childLabel" class="column1" for="child">Child Tickets &#64; &euro;8.80</label>
+                <input type="checkbox" class="column2" id="child">
+
+            </div>
+        </div>
+
+        <hr class="line">
+        </hr>
+
+        <div class="buttonlist">
+                <button class="column" id="proceed" type="button">Proceed</button>
+                <button class="column" id="cancel"type="button">Cancel</button>
+        </div>
+        <div id="tickectDetails">
+            <label id="qty">Qty:</label>
+            <label id="total">Total: &euro;</label>
+            <button id="checkout">checkout</button>
+        </div>
+    </div>
+    <div class="modal" id="myModal">
+     <div  class="modal-content">
+         <label id="seatNo">Selected Seat(s): </label>
+        
+        <div class="theatre" id="tcontainer">
+  
+                        <div class="cinema-seats left">
+                          <div class="cinema-row row-1">
+                            <div class="seat" id="seats">1-1</div>
+                            <div class="seat" id="seats">1-2</div>
+                            <div class="seat" id="seats">1-3</div>
+                            <div class="seat" id="seats">1-4</div>
+                            <div class="seat" id="seats">1-6</div>
+                            <div class="seat" id="seats">1-7</div>
+                            <div class="seat" id="seats">1-8</div>
+                          </div>
+                      
+                          <div class="cinema-row row-2">
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-3">
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-4">
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-5">
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-6">
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-7">
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                            <div class="seat" id="seats"></div>
+                          </div>
+                        </div>
+                      
+                      
+                        <div class="cinema-seats right">
+                          <div class="cinema-row row-1">
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-2">
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-3">
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-4">
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-5">
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-6">
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                          </div>
+                      
+                          <div class="cinema-row row-7">
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                            <div class="seat"></div>
+                          </div>
+                        </div>
+                        
+        </div>
+    
+        <button type="submit" id="submit">Submit</button>
+
+        
+    </div>
+  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="js/Ticket.js" language="javascript" type="text/javascript"></script>
+</body>
+
+</html>

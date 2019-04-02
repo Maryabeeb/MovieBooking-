@@ -1,0 +1,56 @@
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+.column1{
+    float: left;
+    
+    
+}
+.column2{
+    float: right;
+    
+    
+}
+header {
+        display: block;
+        background-color: turquoise;
+        align-content: flex-start;
+        width: auto;
+        
+        }
+.container{
+     width: 50%;
+     height: auto;
+     background-color: white;
+     display: -moz-popup;
+     align-self: center;
+     align-content: center;
+     padding: 30px;
+     margin: 50px;
+     overflow-y: auto
+
+}
+.buttonlist{
+    align-content: center;
+    align-self: center;
+}
+#cancel{
+    color: red;
+}
+#proceed{
+    color: green;
+}
+.line{
+    size:5px ;
+    width:auto ;
+    height:0Px ;
+    
+}
+.ticket
+{
+    padding: 5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+}

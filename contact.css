@@ -1,0 +1,32 @@
+footer{
+    padding-block-start: 50px;
+    align-self: baseline;
+    background: turquoise;
+    width: auto;
+    align-content: center;
+}
+section{
+    padding: 5px;
+    display: block;
+    background: white;
+    border: solid;
+    border-color: white;
+    margin: 20px;
+    width: auto;
+}
+header{display: block;
+    padding: 20px;
+        background:white;
+    width: auto;}
+
+.container{
+    padding: 30px;
+    background: white;
+    
+    
+    
+}
+.foot{
+    align-self: center;
+    align-content: stretch;
+} body{margin: 10px;}

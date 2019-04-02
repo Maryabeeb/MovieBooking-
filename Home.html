@@ -1,0 +1,119 @@
+<!--Lawal,Maryam Adetoun with the cardNo 10519008-->
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<head>
+  <style>
+    body {font-family: "Lato", sans-serif}
+.mySlides {display: none}</style>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Home.html">Home</a>
+        <a href="index.html">Movie List</a>
+        <a href="Ticket.html">Ticket</a>
+        <a href="contact.html">Checkout</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; Menu</button> 
+     
+      </div>
+
+
+    <section class="w3-container w3-center w3-content" style="max-width:600px">
+        <h2 class="welcomeText">Welcome To Marybeeb Cinema</h2>
+        <p class="w3-opacity"><i>Amazing Movie Gallery</i></p>
+        <p class="w3-justify">Awesome movies cafully selected for you. Movies ranging from comedy,fantasy,horror,kiddies,and many more. You don't want to miss it for anything!!!</p>
+      </section>
+      
+
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="images/alice.jpg" style="width:30%" height="10%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Alice in wonderland</h3>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="images/kungfu.jpg" style="width:auto" height="10%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Kungfu</h3>
+        
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="images/angry.jpg" style="width:30%" height="10%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Angry Birds</h3>
+        
+      </div>
+    </div>
+ <!-- The Band Section -->
+ <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Popular</h2>
+    <p class="w3-opacity"></p>
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>Geostorm</p>
+    <img src="images/gs1.jpg" alt="Geostorm" style="width:100%">
+    <p>John is the smartest.</p>
+  </article>
+  <article class="w3-third">
+    <p>Kungfu Panda</p>
+    <img src="images/kungfu.jpg" alt="Kungfu" style="width:100%">
+    <p>Paul is the prettiest.</p>
+  </article>
+  <article class="w3-third">
+    <p>Zootopia</p>
+    <img src="images/zoo.jpg" alt="Zootopia" style="width:100%">
+    <p>Ringo is the funniest.</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="#" target="_blank">Lawal,Maryam Adetoun <br>10519008<br>Dept: Infomation System with Computing</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/home.js"></script>
+
+</body>
+</html>
+
